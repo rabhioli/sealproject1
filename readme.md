@@ -98,11 +98,11 @@ the Data i get back:
 
 #### Desktop View
 
-![My Desktop View](https://imgur.com/a/2XcAxQQ)
+![My Desktop View]([img]https://i.imgur.com/TrGizkU.png[/img])
 
 #### Mobile View
 
-![My Mobile View](https://imgur.com/a/2XcAxQQ)
+![My Mobile View]([img]https://i.imgur.com/TrGizkU.png[/img])
 
 
 

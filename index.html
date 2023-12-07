@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Calander</title>
+    <title>Video Game Release Calander</title>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="app.js" defer></script>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
- <header>
-        <h1>Game Calander</h1>
-    </header>
-    <main>
+    <h1>Video Games Release Calendar</h1>
+    <div class="controls">
+        <button id="prevMonth">Previous</button>
+        <span id="currentMonthYear"></span>
+        <button id="nextMonth">Next</button>
+    </div>
 
-    </main>
-    <footer>
+    <div id="calendar"></div>
 
-    </footer>
-    
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="" id="gameImage">
+            <h2 id="gameTitle"></h2>
+            <p><strong>Description:</strong> <span id="gameDescription"></span></p>
+            <p><strong>Release Date:</strong> <span id="gameReleaseDate"></span></p>
+            <p><strong>Rating:</strong> <span id="gameRating"></span></p>
+            <p><strong>Platforms:</strong> <span id="gamePlatforms"></span></p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
